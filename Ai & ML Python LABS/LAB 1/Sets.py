@@ -8,7 +8,7 @@ colors.remove("green")
 
 # Write a Python program that takes a list of numbers as input from the 
 # user and creates a set containing only the unique numbers from the list.
-
-Numbers = int(input("Enter a list of numbers: "))
-set = set(Numbers)
-print(set)
+Numbers = [1,2,2,3,3,5,5,7,6,9,9]
+print(Numbers)
+N = set(Numbers)
+print (N)
