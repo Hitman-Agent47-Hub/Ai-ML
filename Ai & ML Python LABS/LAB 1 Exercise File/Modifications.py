@@ -4,9 +4,10 @@
 # print(f"Type of name variable is: {type(name)}. It should be <class 'str'>")
 
 name = str(input('What is Your Name? '))
-if type(name) == str:
+try: 
+    type(name) == str
     print(f"Type of variable name is correct: {type(name)}")
-else:
+except:
     print(f"Type of variable name is incorrect: {type(name)}.It should be <class 'str'>")
 
 # Modify the line below
