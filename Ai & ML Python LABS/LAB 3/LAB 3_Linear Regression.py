@@ -15,17 +15,18 @@ m = x_train.shape[0]
 print(f"Number of training examples is: {m}")
 
 
-# # m is the number of training examples
+# m is the number of training examples
 # len() function
 m = len(x_train)
 print(f"Number of training examples is: {m}")
 
 
-i = 0 # Change this to 1 to see (x^1, y^1)
+i = 0
 x_i = x_train[i]
 y_i = y_train[i]
 print(f"(x^({i}), y^({i})) = ({x_i}, {y_i})")
 
+# Change this to 1 to see (x^1, y^1)
 j=1
 x_j = x_train[j]
 y_j = y_train[j]
@@ -33,6 +34,7 @@ print(f"x^({j}),y^({j}) = ({x_j},{y_j})")
 
 # ----------------------------------------------------------------------------
 
+# Plotting Data
 import matplotlib.pyplot as plt
 
 # Plot the data points
