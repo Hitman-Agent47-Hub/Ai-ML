@@ -12,3 +12,4 @@ integer_var1 = 10
 String_var = str(integer_var1)
 print("String Variable after Type Casting:",String_var)
 print(type(String_var))
+

@@ -1,4 +1,4 @@
-a = True
+a = False
 b = False
 print("AND:",a & b)
 print("OR:",a | b)
