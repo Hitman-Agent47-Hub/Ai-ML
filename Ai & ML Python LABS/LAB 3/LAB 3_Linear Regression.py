@@ -14,12 +14,12 @@ print(f"x_train.shape: {x_train.shape}")
 m = x_train.shape[0]
 print(f"Number of training examples is: {m}")
 
-
 # m is the number of training examples
 # len() function
 m = len(x_train)
 print(f"Number of training examples is: {m}")
 
+# Training example `x_i, y_i` 
 
 i = 0
 x_i = x_train[i]
@@ -46,3 +46,4 @@ plt.ylabel('Price (in 1000s of dollars)')
 # Set the x-axis label
 plt.xlabel('Size (1000 sqft)')
 plt.show()
+

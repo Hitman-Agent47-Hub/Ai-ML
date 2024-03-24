@@ -17,20 +17,18 @@ a = np.array([5.,4,3,2]); print(f"np.array([5.,4,3,2]): a = {a}, a shape = {a.sh
 #vector indexing operations on 1-D vectors
 a = np.arange(10)
 print(a)
-
-#access an element
+# #access an element
 print(f"a[2].shape: {a[2].shape} a[2]  = {a[2]}, Accessing an element returns a scalar")
-
-# access the last element, negative indexes count from the end
+# # access the last element, negative indexes count from the end
 print(f"a[-1] = {a[-1]}")
-
-#indexs must be within the range of the vector or they will produce and error
+# indexs must be within the range of the vector or they will produce and error
 try:
     c = a[10]
     print(c)
 except Exception as e:
     print("The error message you'll see is:")
     print(e)
+
 # ---------------------------------------------------
 #access 5 consecutive elements (start:stop:step)
 c = a[2:7:1];     print("a[2:7:1] = ", c)
@@ -46,9 +44,11 @@ c = a[:3];        print("a[:3]    = ", c)
 
 # access all elements
 c = a[:];         print("a[:]     = ", c)
+
 # ---------------------------------------------------
 a = np.array([1,2,3,4])
 print(f"a             : {a}")
+
 # negate elements of a
 b = -a 
 print(f"b = -a        : {b}")
@@ -62,8 +62,8 @@ print(f"b = np.mean(a): {b}")
 
 b = a**2
 print(f"b = a**2      : {b}")
-# ---------------------------------------
 
+# ---------------------------------------
 a = np.array([ 1, 2, 3, 4])
 b = np.array([-1,-2, 3, 4])
 print(f"Binary operators work element wise: {a + b}")
@@ -75,6 +75,7 @@ try:
 except Exception as e:
     print("The error message you'll see is:")
     print(e)
+
 # -------------------------------------
 a = np.array([1, 2, 3, 4])
 
