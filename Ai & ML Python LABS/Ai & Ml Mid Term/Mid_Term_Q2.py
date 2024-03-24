@@ -2,7 +2,28 @@ import numpy as np
 import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
-# Define the dataset
+# 1	Jeep Compass 
+# 2	Renault Duster 
+# 3	Toyota Camry
+# 4	Honda Jazz 
+# 5	Volkswagen Polo 
+# 6	Volkswagen Vento 
+# 6	Volkswagen Vento 
+# 7	Honda WR
+# 8	Honda City 
+# 2	Renault Duster 
+# 9	Maruti Baleno 
+# 8	Honda City 
+# 10	Mahindra XUV
+# 1	Jeep Compass 
+# 8	Honda City 
+# 11 Hyundai Grand
+# 12 Hyundai i20 
+
+# Disel = 1 ,Petrol = 2
+# Manual = 1 , Automatic = 2
+# 1st owner =1, 2nd owner = 2
+
 x = np.array([[1, 86226, 1, 1, 1, 2017, 1956, 5],
               [2, 13248, 2, 2, 1, 2021, 1330, 5],
               [3, 60343, 2, 2, 1, 2016, 2494, 5],
