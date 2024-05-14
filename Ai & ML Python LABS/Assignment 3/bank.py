@@ -14,10 +14,11 @@ class Bank(ABC):
            adding the `pass` keyword under it. Make this function abstract by
            adding an '@abstractmethod' tag right above the function declaration.
     """
+    @abstractmethod
     def basicinfo():
         print("This is a generic bank")
         return "Generic Bank: 0"        
-    @abstractmethod
+    
     def withdraw():
         pass
 
@@ -71,5 +72,6 @@ def main():
     s.withdraw(500)
     s.withdraw(1000)
 
-if __name__ == "__main__":
-    main()
+
+ 
+main()

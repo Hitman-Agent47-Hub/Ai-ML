@@ -64,5 +64,5 @@ def main():
     # Write out the json object to file
     
 
- if __name__ == "__main__":
-    main()
+ 
+ main() 
