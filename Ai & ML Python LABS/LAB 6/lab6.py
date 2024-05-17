@@ -20,5 +20,6 @@ lr_model.fit(X_train, y_train)
 y_pred = lr_model.predict(X_test)
 
 # Calculate the accuracy of the model
+
 accuracy = accuracy_score(y_test, y_pred)
 print("Accuracy on testing set:", accuracy)
